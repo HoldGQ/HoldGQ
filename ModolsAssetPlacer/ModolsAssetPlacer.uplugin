@@ -1,0 +1,30 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1",
+  "FriendlyName": "Modols Asset Placer",
+  "Description": "A plugin to iterate through Modols assets and place them in the level, mirroring the folder structure in the Outliner.",
+  "Category": "Editor",
+  "CreatedBy": "AI Assistant",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": true,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "PythonScriptPlugin",
+      "Type": "Runtime",
+      "LoadingPhase": "PostEngineInit"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "PythonScriptPlugin",
+      "Enabled": true
+    }
+  ]
+}
