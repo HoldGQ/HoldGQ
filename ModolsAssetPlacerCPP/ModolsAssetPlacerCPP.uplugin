@@ -1,0 +1,30 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1",
+  "FriendlyName": "Modols Asset Placer (C++)",
+  "Description": "A C++ plugin to iterate through Modols assets and place them in the level, mirroring folder structure in the Outliner, with a Slate UI.",
+  "Category": "Editor",
+  "CreatedBy": "AI Assistant",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": true,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "ModolsAssetPlacerCPPEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+     {
+       "Name": "EditorScriptingUtilities",
+       "Enabled": true
+     }
+   ]
+}
